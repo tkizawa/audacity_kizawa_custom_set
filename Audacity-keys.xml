@@ -1,0 +1,349 @@
+<audacitykeyboard audacityversion="2.3.1">
+	<command name="New" label="新規" key="Ctrl+N"/>
+	<command name="Open" label="開く(O)..." key="Ctrl+O"/>
+	<command name="Close" label="閉じる" key="Ctrl+W"/>
+	<command name="Save" label="保存" key="Ctrl+S"/>
+	<command name="SaveAs" label="名前を付けて保存(A)..." key=""/>
+	<command name="SaveCopy" label="プロジェクトの無劣化コピーを保存(L)..." key=""/>
+	<command name="SaveCompressed" label="プロジェクトの圧縮コピーを保存(S)..." key=""/>
+	<command name="ExportMp3" label="MP3 として書き出し" key=""/>
+	<command name="ExportWav" label="WAV として書き出し" key=""/>
+	<command name="ExportOgg" label="OGG として書き出し" key=""/>
+	<command name="Export" label="音声の書き出し(E)..." key="Ctrl+Shift+E"/>
+	<command name="ExportSel" label="選択した音声の書き出し(R)..." key=""/>
+	<command name="ExportLabels" label="ラベルの書き出し(L)..." key=""/>
+	<command name="ExportMultiple" label="複数ファイルの書き出し(M)..." key="Ctrl+Shift+L"/>
+	<command name="ExportMIDI" label="MIDI の書き出し(D)..." key=""/>
+	<command name="ImportAudio" label="音声の取り込み(A)..." key="Ctrl+Shift+I"/>
+	<command name="ImportLabels" label="ラベルの取り込み(L)..." key=""/>
+	<command name="ImportMIDI" label="MIDI の取り込み(M)..." key=""/>
+	<command name="ImportRaw" label="ロー (Raw) データの取り込み(R)..." key=""/>
+	<command name="PageSetup" label="ページ設定(G)..." key=""/>
+	<command name="Print" label="印刷(P)..." key=""/>
+	<command name="Exit" label="終了" key="Ctrl+Q"/>
+	<command name="Undo" label="分離 を元に戻す" key="Ctrl+Z"/>
+	<command name="Redo" label="やり直し" key="Ctrl+Y"/>
+	<command name="Cut" label="切り取り" key="Ctrl+X"/>
+	<command name="Delete" label="削除" key="Ctrl+K"/>
+	<command name="Copy" label="コピー" key="Ctrl+C"/>
+	<command name="Paste" label="ペースト" key="Ctrl+V"/>
+	<command name="Duplicate" label="複製" key="Ctrl+D"/>
+	<command name="SplitCut" label="分割して切り取り" key="Ctrl+Alt+X"/>
+	<command name="SplitDelete" label="分割して削除" key="Ctrl+Alt+K"/>
+	<command name="Silence" label="無音化" key="C"/>
+	<command name="Trim" label="トリミング" key="Ctrl+T"/>
+	<command name="Split" label="分割" key="A"/>
+	<command name="SplitNew" label="分割して新規" key=""/>
+	<command name="Join" label="結合" key=""/>
+	<command name="Disjoin" label="無音部分の除去" key=""/>
+	<command name="EditLabels" label="ラベルの編集(E)..." key=""/>
+	<command name="AddLabel" label="選択範囲にラベルを付ける" key="Ctrl+B"/>
+	<command name="AddLabelPlaying" label="再生位置にラベルを付ける" key="Ctrl+M"/>
+	<command name="PasteNewLabel" label="新しいラベルにテキストをペースト" key=""/>
+	<command name="TypeToCreateLabel" label="タイピングで即ラベル作成 (オン/オフ)" key=""/>
+	<command name="CutLabels" label="切り取り" key=""/>
+	<command name="DeleteLabels" label="削除" key=""/>
+	<command name="SplitCutLabels" label="分割して切り取り" key="Alt+Shift+X"/>
+	<command name="SplitDeleteLabels" label="分割して削除" key="Alt+Shift+K"/>
+	<command name="SilenceLabels" label="無音化" key=""/>
+	<command name="CopyLabels" label="コピー" key="Alt+Shift+C"/>
+	<command name="SplitLabels" label="分割" key=""/>
+	<command name="JoinLabels" label="結合" key=""/>
+	<command name="DisjoinLabels" label="無音部分の除去" key="Alt+Shift+J"/>
+	<command name="EditMetaData" label="メタデータ(M)..." key=""/>
+	<command name="Preferences" label="環境設定(F)..." key="Ctrl+P"/>
+	<command name="SelectAll" label="すべて" key="Ctrl+A"/>
+	<command name="SelectNone" label="無し" key=""/>
+	<command name="SelAllTracks" label="全トラック" key="Ctrl+Shift+K"/>
+	<command name="SelSyncLockTracks" label="同期ロックした全トラック" key="Ctrl+Shift+Y"/>
+	<command name="SetLeftSelection" label="再生位置の左" key="["/>
+	<command name="SetRightSelection" label="再生位置の右" key="]"/>
+	<command name="SelTrackStartToCursor" label="先頭からカーソルまで" key="Shift+J"/>
+	<command name="SelCursorToTrackEnd" label="カーソルから最後まで" key="Shift+K"/>
+	<command name="SelTrackStartToEnd" label="トラックの最初から最後まで" key=""/>
+	<command name="SelSave" label="選択範囲を記憶" key=""/>
+	<command name="SelRestore" label="記憶した選択範囲を再現" key=""/>
+	<command name="ToggleSpectralSelection" label="スペクトル選択" key=""/>
+	<command name="NextHigherPeakFrequency" label="次の高域ピーク周波数" key=""/>
+	<command name="NextLowerPeakFrequency" label="次の低域ピーク周波数" key=""/>
+	<command name="SelPrevClipBoundaryToCursor" label="前のクリップ境界からカーソルまで" key=""/>
+	<command name="SelCursorToNextClipBoundary" label="カーソルから次のクリップ境界まで" key=""/>
+	<command name="SelPrevClip" label="前のクリップ" key="S"/>
+	<command name="SelNextClip" label="次のクリップ" key="Alt+N"/>
+	<command name="SelCursorStoredCursor" label="現在カーソルから記憶したカーソル位置まで" key="D"/>
+	<command name="StoreCursorPosition" label="カーソル位置を記憶" key=""/>
+	<command name="ZeroCross" label="ゼロ交点へ" key="Z"/>
+	<command name="ZoomIn" label="拡大" key="Ctrl+1"/>
+	<command name="ZoomNormal" label="元の縮尺に戻す" key="Ctrl+2"/>
+	<command name="ZoomOut" label="縮小" key="Ctrl+3"/>
+	<command name="ZoomSel" label="選択範囲を拡大" key="Ctrl+E"/>
+	<command name="ZoomToggle" label="拡大切り替え" key="Shift+Z"/>
+	<command name="AdvancedVZoom" label="高度な垂直拡大" key=""/>
+	<command name="FitInWindow" label="幅に合わせる" key="Ctrl+F"/>
+	<command name="FitV" label="高さに合わせる" key="Ctrl+Shift+F"/>
+	<command name="CollapseAllTracks" label="全てのトラックを縮小" key="Ctrl+Shift+C"/>
+	<command name="ExpandAllTracks" label="全てのトラックを展開" key="Ctrl+Shift+X"/>
+	<command name="SkipSelStart" label="選択範囲の最初へ" key=""/>
+	<command name="SkipSelEnd" label="選択範囲の最後へ" key=""/>
+	<command name="UndoHistory" label="履歴(H)..." key=""/>
+	<command name="Karaoke" label="カラオケ(K)..." key=""/>
+	<command name="MixerBoard" label="ミキサボード(M)..." key=""/>
+	<command name="ResetToolbars" label="ツールバーをリセット" key=""/>
+	<command name="ShowTransportTB" label="録音/再生ツールバー" key=""/>
+	<command name="ShowToolsTB" label="道具箱ツールバー" key=""/>
+	<command name="ShowRecordMeterTB" label="録音メーターツールバー" key=""/>
+	<command name="ShowPlayMeterTB" label="再生メーターツールバー" key=""/>
+	<command name="ShowMixerTB" label="ミキサーツールバー" key=""/>
+	<command name="ShowEditTB" label="編集ツールバー" key=""/>
+	<command name="ShowTranscriptionTB" label="変速再生ツールバー" key=""/>
+	<command name="ShowScrubbingTB" label="スクラブツールバー" key=""/>
+	<command name="ShowDeviceTB" label="デバイスツールバー" key=""/>
+	<command name="ShowSelectionTB" label="選択ツールバー" key=""/>
+	<command name="ShowSpectralSelectionTB" label="スペクトル選択ツールバー" key=""/>
+	<command name="ShowExtraMenus" label="拡張メニュー (オン/オフ)" key=""/>
+	<command name="ShowClipping" label="クリッピングを表示 (オン/オフ)" key=""/>
+	<command name="PlayStop" label="再生/停止" key=""/>
+	<command name="PlayStopSelect" label="再生/停止とカーソルのセット" key="Space"/>
+	<command name="PlayLooped" label="ループ再生" key="Shift+Space"/>
+	<command name="Pause" label="一時停止" key="P"/>
+	<command name="Record1stChoice" label="録音" key="R"/>
+	<command name="Record2ndChoice" label="新規トラックを録音" key="Shift+R"/>
+	<command name="TimerRecord" label="タイマー録音(T)..." key="Shift+T"/>
+	<command name="PunchAndRoll" label="パンチ＆ロール録音" key="Shift+D"/>
+	<command name="Scrub" label="スクラブ" key=""/>
+	<command name="Seek" label="シーク" key=""/>
+	<command name="ToggleScrubRuler" label="スクラブルーラー" key=""/>
+	<command name="CursSelStart" label="選択範囲の最初へ" key=""/>
+	<command name="CursSelEnd" label="選択範囲の最後へ" key=""/>
+	<command name="CursTrackStart" label="トラックの最初へ" key="J"/>
+	<command name="CursTrackEnd" label="トラックの最後へ" key="K"/>
+	<command name="CursPrevClipBoundary" label="前のクリップ境界へ" key="Up"/>
+	<command name="CursNextClipBoundary" label="次のクリップ境界へ" key="Down"/>
+	<command name="CursProjectStart" label="プロジェクトの最初へ" key="Home"/>
+	<command name="CursProjectEnd" label="プロジェクトの最後へ" key="End"/>
+	<command name="LockPlayRegion" label="ロック" key=""/>
+	<command name="UnlockPlayRegion" label="ロック解除" key=""/>
+	<command name="RescanDevices" label="音声デイバイス情報の再スキャン" key=""/>
+	<command name="SoundActivationLevel" label="録音起動レベル(V)..." key=""/>
+	<command name="SoundActivation" label="音による録音起動 (オン/オフ)" key=""/>
+	<command name="PinnedHead" label="再生/録音の位置をピン留め (オン/オフ)" key=""/>
+	<command name="Overdub" label="オーバーダブ (オン/オフ)" key=""/>
+	<command name="SWPlaythrough" label="ソフトウェアによる再生 (オン/オフ)" key=""/>
+	<command name="NewMonoTrack" label="モノラルトラック" key=""/>
+	<command name="NewStereoTrack" label="ステレオトラック" key=""/>
+	<command name="NewLabelTrack" label="ラベルトラック" key=""/>
+	<command name="NewTimeTrack" label="タイムトラック" key=""/>
+	<command name="Stereo to Mono" label="ステレオからモノラルへ" key=""/>
+	<command name="MixAndRender" label="ミックスして作成" key=""/>
+	<command name="MixAndRenderToNewTrack" label="新しいトラックにミックスして作成" key=""/>
+	<command name="Resample" label="再サンプリング(R)..." key=""/>
+	<command name="RemoveTracks" label="トラックを削除" key=""/>
+	<command name="MuteAllTracks" label="全トラックをミュート" key="Ctrl+U"/>
+	<command name="UnmuteAllTracks" label="全トラックをミュート解除" key="Ctrl+Shift+U"/>
+	<command name="PanLeft" label="左" key=""/>
+	<command name="PanRight" label="右" key=""/>
+	<command name="PanCenter" label="中央" key=""/>
+	<command name="Align_EndToEnd" label="数珠つなぎに整列" key=""/>
+	<command name="Align_Together" label="同じ開始点に整列" key=""/>
+	<command name="Align_StartToZero" label="開始点を 0 秒位置に移動" key=""/>
+	<command name="Align_StartToSelStart" label="開始点をカーソルまたは選択範囲の始めに移動" key=""/>
+	<command name="Align_StartToSelEnd" label="開始点を選択範囲の終わりに移動" key=""/>
+	<command name="Align_EndToSelStart" label="終了点をカーソルまたは選択範囲の始めに移動" key=""/>
+	<command name="Align_EndToSelEnd" label="終了点を選択範囲の終わりに移動" key=""/>
+	<command name="MoveSelectionWithTracks" label="トラックと共に選択範囲も移動 (オン/オフ)" key=""/>
+	<command name="SortByTime" label="開始時刻" key=""/>
+	<command name="SortByName" label="名前" key=""/>
+	<command name="SyncLock" label="トラックを同期ロック (オン/オフ)" key=""/>
+	<command name="ManageGenerators" label="プラグインの追加/削除(P)..." key=""/>
+	<command name="DTMF トーン(&amp;M)..." label="DTMF トーン(M)..." key=""/>
+	<command name="チャープ(&amp;C)..." label="チャープ(C)..." key=""/>
+	<command name="トーン(&amp;T)..." label="トーン(T)..." key=""/>
+	<command name="ノイズ(&amp;N)..." label="ノイズ(N)..." key=""/>
+	<command name="無音(&amp;S)..." label="無音(S)..." key=""/>
+	<command name="Risset ドラム(&amp;D)..." label="Risset ドラム(D)..." key=""/>
+	<command name="プラック(&amp;K)..." label="プラック(K)..." key=""/>
+	<command name="リズムトラック(&amp;R)..." label="リズムトラック(R)..." key=""/>
+	<command name="ManageEffects" label="プラグインの追加/削除(P)..." key=""/>
+	<command name="RepeatLastEffect" label="前回のエフェクトを再適用" key="Ctrl+R"/>
+	<command name="イコライザー (EQ) (&amp;Q)..." label="イコライザー (EQ) (Q)..." key=""/>
+	<command name="エコー(&amp;E)..." label="エコー(E)..." key=""/>
+	<command name="クリックノイズの除去(&amp;K)..." label="クリックノイズの除去(K)..." key=""/>
+	<command name="コンプレッサー(&amp;C)..." label="コンプレッサー(C)..." key=""/>
+	<command name="ディストーション(&amp;D)..." label="ディストーション(D)..." key=""/>
+	<command name="ノイズの低減(&amp;N)..." label="ノイズの低減(N)..." key=""/>
+	<command name="ノーマライズ(&amp;Z)..." label="ノーマライズ(Z)..." key=""/>
+	<command name="フェイザー(&amp;A)..." label="フェイザー(A)..." key=""/>
+	<command name="フェードアウト(&amp;O)" label="フェードアウト" key=""/>
+	<command name="フェードイン(&amp;I)" label="フェードイン" key=""/>
+	<command name="リバーブ(&amp;R)..." label="リバーブ(R)..." key=""/>
+	<command name="ワウ (Wahwah) (&amp;W)..." label="ワウ (Wahwah) (W)..." key=""/>
+	<command name="上下を反転(&amp;I)" label="上下を反転" key=""/>
+	<command name="伸縮: Paul ストレッチ(&amp;S)..." label="伸縮: Paul ストレッチ(S)..." key=""/>
+	<command name="伸縮: 連続的伸縮(&amp;H)..." label="伸縮: 連続的伸縮(H)..." key=""/>
+	<command name="低域・高域(&amp;B)..." label="低域・高域(B)..." key=""/>
+	<command name="修復(&amp;E)" label="修復" key=""/>
+	<command name="前後を反転(&amp;V)" label="前後を反転" key=""/>
+	<command name="増幅(&amp;A)..." label="増幅(A)..." key=""/>
+	<command name="変更: テンポの変更(&amp;T)..." label="変更: テンポの変更(T)..." key=""/>
+	<command name="変更: ピッチの変更(&amp;P)..." label="変更: ピッチの変更(P)..." key=""/>
+	<command name="変更: 速度の変更(&amp;G)..." label="変更: 速度の変更(G)..." key=""/>
+	<command name="無音の切り詰め(&amp;U)..." label="無音の切り詰め(U)..." key=""/>
+	<command name="繰り返し(&amp;R)..." label="繰り返し(R)..." key=""/>
+	<command name="自動ダッキング(&amp;K)..." label="自動ダッキング(K)..." key=""/>
+	<command name="SC4..." label="SC4..." key=""/>
+	<command name="クリッピングの修復(&amp;C)..." label="クリッピングの修復(C)..." key=""/>
+	<command name="クロスフェード: クリップ(&amp;X)" label="クロスフェード: クリップ" key=""/>
+	<command name="クロスフェード: トラック(&amp;T)..." label="クロスフェード: トラック(T)..." key=""/>
+	<command name="スタジオフェードアウト(&amp;F)" label="スタジオフェードアウト" key=""/>
+	<command name="スペクトル編集: シェルビング(&amp;S)..." label="スペクトル編集: シェルビング(S)..." key=""/>
+	<command name="スペクトル編集: パラメトリック EQ(&amp;Q)..." label="スペクトル編集: パラメトリック EQ(Q)..." key=""/>
+	<command name="スペクトル編集: マルチツール(&amp;M)" label="スペクトル編集: マルチツール" key=""/>
+	<command name="ディレイ(&amp;Y)..." label="ディレイ(Y)..." key=""/>
+	<command name="トレモロ(&amp;M)..." label="トレモロ(M)..." key=""/>
+	<command name="ノッチフィルター(&amp;N)..." label="ノッチフィルター(N)..." key=""/>
+	<command name="ハイパスフィルター(&amp;H)..." label="ハイパスフィルター(H)..." key=""/>
+	<command name="ボコーダー(&amp;D)..." label="ボコーダー(D)..." key=""/>
+	<command name="ボーカルの低減と分離(&amp;V)..." label="ボーカルの低減と分離(V)..." key=""/>
+	<command name="ボーカルの除去(&amp;O)..." label="ボーカルの除去(O)..." key=""/>
+	<command name="リミッター(&amp;L)..." label="リミッター(L)..." key=""/>
+	<command name="ローパスフィルター(&amp;L)..." label="ローパスフィルター(L)..." key=""/>
+	<command name="高度なフェード(&amp;J)..." label="高度なフェード(J)..." key=""/>
+	<command name="ManageAnalyzers" label="プラグインの追加/削除(P)..." key=""/>
+	<command name="ContrastAnalyser" label="コントラスト(C)..." key=""/>
+	<command name="PlotSpectrum" label="スペクトル表示(S)..." key=""/>
+	<command name="クリッピングの検出(&amp;F)..." label="クリッピングの検出(F)..." key=""/>
+	<command name="拍の検出(&amp;B)..." label="拍の検出(B)..." key=""/>
+	<command name="無音の検出(&amp;L)..." label="無音の検出(L)..." key=""/>
+	<command name="音声の検出(&amp;O)..." label="音声の検出(O)..." key=""/>
+	<command name="ManageTools" label="プラグインの追加/削除(P)..." key=""/>
+	<command name="ManageMacros" label="マクロ(M)..." key=""/>
+	<command name="ApplyMacrosPalette" label="パレット(P)..." key=""/>
+	<command name="FancyScreenshot" label="スクリーンショット(S)..." key=""/>
+	<command name="Benchmark" label="ベンチマーク(R)..." key=""/>
+	<command name="Nyquist プロンプト(&amp;Q)..." label="Nyquist プロンプト(Q)..." key=""/>
+	<command name="サンプルデータの取り込み(&amp;I)..." label="サンプルデータの取り込み(I)..." key=""/>
+	<command name="サンプルデータの書き出し(&amp;E)..." label="サンプルデータの書き出し(E)..." key=""/>
+	<command name="等間隔ラベル(&amp;L)..." label="等間隔ラベル(L)..." key=""/>
+	<command name="Play" label="再生" key=""/>
+	<command name="Stop" label="停止" key=""/>
+	<command name="PlayOneSec" label="1 秒だけ再生" key=""/>
+	<command name="PlayToSelection" label="選択範囲まで再生" key="B"/>
+	<command name="PlayBeforeSelectionStart" label="選択範囲開始点の直前を再生" key=""/>
+	<command name="PlayAfterSelectionStart" label="選択範囲開始点の直後を再生" key=""/>
+	<command name="PlayBeforeSelectionEnd" label="選択範囲終了点の直前を再生" key=""/>
+	<command name="PlayAfterSelectionEnd" label="選択範囲終了点の直後を再生" key=""/>
+	<command name="PlayBeforeAndAfterSelectionStart" label="選択範囲開始点の直前から直後までを再生" key=""/>
+	<command name="PlayBeforeAndAfterSelectionEnd" label="選択領域終了点の直前から直後までを再生" key=""/>
+	<command name="PlayCutPreview" label="切り取りプレビューを再生" key=""/>
+	<command name="SelectTool" label="選択ツール" key="F1"/>
+	<command name="EnvelopeTool" label="エンベロープツール" key=""/>
+	<command name="DrawTool" label="描画ツール" key="F3"/>
+	<command name="ZoomTool" label="拡大ツール" key="F4"/>
+	<command name="TimeShiftTool" label="移動ツール" key="F5"/>
+	<command name="MultiTool" label="マルチツール" key="F6"/>
+	<command name="PrevTool" label="前のツール" key=""/>
+	<command name="NextTool" label="次のツール" key=""/>
+	<command name="OutputGain" label="再生音量調整(J)..." key=""/>
+	<command name="OutputGainInc" label="再生音量を上げる" key=""/>
+	<command name="OutputGainDec" label="再生音量を下げる" key=""/>
+	<command name="InputGain" label="録音音量調整(U)..." key=""/>
+	<command name="InputGainInc" label="録音音量を上げる" key=""/>
+	<command name="InputGainDec" label="録音音量を下げる" key=""/>
+	<command name="DeleteKey" label="Delete キー" key="Backspace"/>
+	<command name="DeleteKey2" label="Delete キー 2" key="X"/>
+	<command name="PlayAtSpeed" label="変速再生" key="Ctrl+Space"/>
+	<command name="PlayAtSpeedLooped" label="ループして変速再生" key=""/>
+	<command name="PlayAtSpeedCutPreview" label="切り取りプレビューを変速再生" key=""/>
+	<command name="SetPlaySpeed" label="再生速度調整(J)..." key=""/>
+	<command name="PlaySpeedInc" label="再生速度を上げる" key=""/>
+	<command name="PlaySpeedDec" label="再生速度を下げる" key=""/>
+	<command name="MoveToPrevLabel" label="前のラベルに移動" key="Alt+Left"/>
+	<command name="MoveToNextLabel" label="次のラベルに移動" key="Alt+Right"/>
+	<command name="SeekLeftShort" label="再生中に左へシーク" key="Left"/>
+	<command name="SeekRightShort" label="再生中に右へシーク" key="Right"/>
+	<command name="SeekLeftLong" label="再生中に左へ大シーク" key=""/>
+	<command name="SeekRightLong" label="再生中に右へ大シーク" key=""/>
+	<command name="InputDevice" label="録音デバイスの変更(R)..." key=""/>
+	<command name="OutputDevice" label="再生デバイスの変更(P)..." key=""/>
+	<command name="AudioHost" label="音声ホストの変更(H)..." key=""/>
+	<command name="InputChannels" label="録音チャンネルの変更(N)..." key=""/>
+	<command name="SnapToOff" label="スナップ: なし" key=""/>
+	<command name="SnapToNearest" label="スナップ: 最近傍" key=""/>
+	<command name="SnapToPrior" label="スナップ: 1 つ前" key=""/>
+	<command name="SelStart" label="最初まで選択" key="Shift+Home"/>
+	<command name="SelEnd" label="最後まで選択" key="Shift+End"/>
+	<command name="SelExtLeft" label="選択範囲の左端を拡げる" key="Shift+Left"/>
+	<command name="SelExtRight" label="選択範囲の右端を拡げる" key="Shift+Right"/>
+	<command name="SelSetExtLeft" label="選択範囲の左端を設定または延長" key=""/>
+	<command name="SelSetExtRight" label="選択範囲の右端を設定または延長" key=""/>
+	<command name="SelCntrLeft" label="選択範囲の左端を縮める" key="Ctrl+Shift+Right"/>
+	<command name="SelCntrRight" label="選択範囲の右端を縮める" key="Ctrl+Shift+Left"/>
+	<command name="PrevWindow" label="アクティブウィンドウ間でフォーカスを戻す" key=""/>
+	<command name="NextWindow" label="アクティブウィンドウ間でフォーカスを進める" key=""/>
+	<command name="PrevFrame" label="ツールバー‐トラック間を戻る" key="Ctrl+Shift+F6"/>
+	<command name="NextFrame" label="ツールバー‐トラック間を進む" key="Ctrl+F6"/>
+	<command name="PrevTrack" label="フォーカスを前のトラックに移動" key=""/>
+	<command name="NextTrack" label="フォーカスを次のトラックに移動" key=""/>
+	<command name="FirstTrack" label="フォーカスを最初のトラックに移動" key=""/>
+	<command name="LastTrack" label="フォーカスを最後のトラックに移動" key=""/>
+	<command name="ShiftUp" label="フォーカスを前のトラックに移動" key="Shift+Up"/>
+	<command name="ShiftDown" label="フォーカスを次のトラックに移動" key="Shift+Down"/>
+	<command name="Toggle" label="フォーカスするトラックを切り替え" key="Return"/>
+	<command name="ToggleAlt" label="フォーカスするトラックを切り替え" key="NUMPAD_ENTER"/>
+	<command name="CursorLeft" label="カーソルを左へ" key="Left"/>
+	<command name="CursorRight" label="カーソルを右へ" key="Right"/>
+	<command name="CursorShortJumpLeft" label="カーソルを少しだけ左へ" key="Shift+Left"/>
+	<command name="CursorShortJumpRight" label="カーソルを少しだけ右へ" key="Shift+Right"/>
+	<command name="CursorLongJumpLeft" label="カーソルを大きく左へ" key="Shift+,"/>
+	<command name="CursorLongJumpRight" label="カーソルを大きく右へ" key="Shift+."/>
+	<command name="ClipLeft" label="クリップを左へ" key=""/>
+	<command name="ClipRight" label="クリップを右へ" key=""/>
+	<command name="TrackPan" label="フォーカスしたトラックのパンを変更(A)..." key=""/>
+	<command name="TrackPanLeft" label="フォーカスしたトラックを左へパン" key=""/>
+	<command name="TrackPanRight" label="フォーカスしたトラックを右へパン" key=""/>
+	<command name="TrackGain" label="フォーカスしたトラックのゲインを変更(N)..." key="Shift+G"/>
+	<command name="TrackGainInc" label="フォーカスしたトラックのゲインを上げる" key=""/>
+	<command name="TrackGainDec" label="フォーカスしたトラックのゲインを下げる" key=""/>
+	<command name="TrackMenu" label="フォーカスしたトラックのメニューを開く(E)..." key="Shift+M"/>
+	<command name="TrackMute" label="フォーカスしたトラックをミュート/非ミュート" key="Shift+U"/>
+	<command name="TrackSolo" label="フォーカスしたトラックをソロ/非ソロ" key="Shift+S"/>
+	<command name="TrackClose" label="フォーカスしたトラックを閉じる" key=""/>
+	<command name="TrackMoveUp" label="フォーカスしたトラックを上へ移動" key=""/>
+	<command name="TrackMoveDown" label="フォーカスしたトラックを下へ移動" key=""/>
+	<command name="TrackMoveTop" label="フォーカスしたトラックを最上段へ移動" key=""/>
+	<command name="TrackMoveBottom" label="フォーカスしたトラックを最下段へ移動" key=""/>
+	<command name="SelectTime" label="時間選択..." key=""/>
+	<command name="SelectFrequencies" label="周波数選択..." key=""/>
+	<command name="SelectTracks" label="トラック選択..." key=""/>
+	<command name="SetTrackStatus" label="トラックステータスの設定..." key=""/>
+	<command name="SetTrackAudio" label="トラック音声設定..." key=""/>
+	<command name="SetTrackVisuals" label="トラック表示設定..." key=""/>
+	<command name="GetPreference" label="環境設定を取得..." key=""/>
+	<command name="SetPreference" label="環境設定を設定..." key=""/>
+	<command name="SetClip" label="クリップ設定..." key=""/>
+	<command name="SetEnvelope" label="エンベロープ設定..." key=""/>
+	<command name="SetLabel" label="ラベル設定..." key=""/>
+	<command name="SetProject" label="プロジェクト設定..." key=""/>
+	<command name="Select" label="選択..." key=""/>
+	<command name="SetTrack" label="トラックの設定..." key=""/>
+	<command name="GetInfo" label="情報の取得..." key=""/>
+	<command name="Message" label="メッセージ..." key=""/>
+	<command name="Help" label="ヘルプ..." key=""/>
+	<command name="Import2" label="取り込み(I)..." key=""/>
+	<command name="Export2" label="書き出し(E)..." key=""/>
+	<command name="OpenProject2" label="プロジェクトを開く..." key=""/>
+	<command name="SaveProject2" label="プロジェクトを保存..." key=""/>
+	<command name="Drag" label="マウス操作..." key=""/>
+	<command name="CompareAudio" label="音声比較..." key=""/>
+	<command name="Screenshot" label="スクリーンショット (簡易)..." key=""/>
+	<command name="FullScreenOnOff" label="フルスクリーン表示 (オン/オフ)" key="F11"/>
+	<command name="QuickHelp" label="簡易ヘルプ(Q)..." key=""/>
+	<command name="Manual" label="マニュアル(M)..." key=""/>
+	<command name="DeviceInfo" label="音声デバイス情報(D)..." key=""/>
+	<command name="MidiDeviceInfo" label="MIDI デバイス情報(M)..." key=""/>
+	<command name="Log" label="ログの表示(L)..." key=""/>
+	<command name="CrashReport" label="サポートデータの生成(G)..." key=""/>
+	<command name="CheckDeps" label="依存性のチェック(K)..." key=""/>
+	<command name="Updates" label="アップデートのチェック(C)..." key=""/>
+	<command name="About" label="Audacity について(A)..." key=""/>
+</audacitykeyboard>
